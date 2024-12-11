@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para los Reyes Magos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcccb;
+            width: 100%;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #ddd;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            width: 100%;
+        }
+        .navbar a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: #ff6347;
+        }
+        .inicio {
+            text-align: center;
+            padding: 20px;
+        }
+        .inicio img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        main {
+            display: none;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .categoria {
+            margin: 10px;
+            padding: 15px;
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .categoria h2 {
+            text-align: center;
+            color: #444;
+        }
+        .slider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .slider img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .slider .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 20px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 18px;
+        }
+        .slider .arrow.left {
+            left: 10px;
+        }
+        .slider .arrow.right {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carta para los Reyes Magos de David</h1>
+    </header>
+    <div class="navbar">
+        <a href="#" data-section="inicio">Inicio</a>
+        <a href="#" data-section="ropa">Ropa</a>
+        <a href="#" data-section="zapatillas">Zapatillas</a>
+        <a href="#" data-section="electronica">Electrónica</a>
+        <a href="#" data-section="juegos">Juegos</a>
+        <a href="#" data-section="varios">Varios</a>
+    </div>
+    <section id="inicio" class="inicio">
+        <img src="https://via.placeholder.com/800x400" alt="Imagen de inicio">
+    </section>
+    <main id="ropa">
+        <div class="categoria">
+            <h2>Ropa</h2>
+            <div class="slider">
+                <button class="arrow left">&#8592;</button>
+                <a href="https://www.pullandbear.com/es/camiseta-honda-manga-corta-l03243583?cS=251&pelement=621948244" target="_blank">
+                    <img src="https://static.pullandbear.net/assets/public/ebc8/568b/06804299bbb2/017f401ed9b1/03243583251-A6M/03243583251-A6M.jpg?ts=1720714031762&w=1124&f=auto" alt="Ropa 1">
+                </a>
+                <a href="https://www.pullandbear.com/es/sudadera-capucha-stwd-l07590505?cS=400&pelement=662014288" target="_blank">
+                    <img src="https://static.pullandbear.net/assets/public/9c95/92f3/056f441ba27c/7e518f725084/07590505400-A6M/07590505400-A6M.jpg?ts=1722954818983&w=1124&f=auto" alt="Ropa 2">
+                </a>
+                <a href="https://www.alvaromoreno.com/es_es/pantalon-new-hollis-crudo-1004224001_IVO.html" target="_blank">
+                    <img src="https://www.alvaromoreno.com/dw/image/v2/BGHK_PRD/on/demandware.static/-/Sites-amoreno_master_catalog/default/dwf34e06a5/images/hi-res/I24/Hombre/Pantalones/Pantalon_New_Hollis_1004224001/IVO/1004224001_IVO_1.jpg?sw=965&sh=1287" alt="Ropa 3">
+                </a>
+                <a href="https://www.levi.com/ES/es_ES/ropa/hombre/jean-501-levis-original/p/005013337" target="_blank">
+                    <img src="https://lsco.scene7.com/is/image/lsco/005013337-alt1-pdp-lse?fmt=webp&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=880&hei=880" alt="Ropa 4">
+                </a>
+                <a href="https://www.zara.com/es/es/pantalon-carrot-fit-pana-p01538360.html?v1=379015447" target="_blank">
+                    <img src="https://static.zara.net/assets/public/97a6/fba7/3b9f47fe9829/acc1d03c5bf9/01538361712-e1/01538361712-e1.jpg?ts=1726741114203&w=750" alt="Ropa 5">
+                </a>
+                <a href="https://scalperscompany.com/products/48267-patch-sweater-aw2425-cream" target="_blank">
+                    <img src="https://scalperscompany.com/cdn/shop/files/48267-CREAM-S-1.jpg?height=1500&v=1724136616&width=1000" alt="Ropa 6">
+                </a>
+                <a href="https://scalperscompany.com/products/48397-oxford-peach-f-shirt-aw2425-white" target="_blank">
+                    <img src="https://scalperscompany.com/cdn/shop/files/48397-WHITE-S-1.jpg?height=1500&v=1726468193&width=1000" alt="Ropa 7">
+                </a>
+                <a href="https://scalperscompany.com/products/48442-sc-polo-sweater-aw2425-navy" target="_blank">
+                    <img src="https://scalperscompany.com/cdn/shop/files/48442-NAVY-S-1.jpg?height=1500&v=1722254001&width=1000" alt="Ropa 8">
+                </a>
+                <a href="https://www.decathlon.es/es/p/pantalon-desmontable-de-montana-y-trekking-hombre-forclaz-mt100/_/R-p-306560?mc=8666242&LGWCODE=1&utm_source=organic_shopping&utm_medium=organic" target="_blank">
+                    <img src="https://contents.mediadecathlon.com/p2137360/k$4fc688d02602a0a6412594583ffcdfb7/sq/pantalon-desmontable-de-montana-y-trekking-hombre-forclaz-mt100.jpg?format=auto&f=969x969" alt="Ropa 9">
+                </a>
+                <button class="arrow right">&#8594;</button>
+            </div>
+        </div>
+    </main>
+    <main id="zapatillas">
+        <div class="categoria">
+            <h2>Zapatillas</h2>
+            <div class="slider">
+                <button class="arrow left">&#8592;</button>
+                <a href="https://www.adidas.es/zapatilla-gazelle/BB5476.html" target="_blank"><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Zapatilla_Gazelle_Negro_BB5476_01_standard.jpg" alt="Zapatillas 1"></a>
+                <a href="https://www.adidas.es/zapatilla-stan-smith/M20324.html" target="_blank"><img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69721f2e7c934d909168a80e00818569_9366/Zapatilla_Stan_Smith_Blanco_M20324_01_standard.jpg" alt="Zapatillas 2"></a>
+                <a href="https://www.newbalance.es/es/pd/550/BB550PV1-47900.html?dwvar_BB550PV1-47900_style=BB550PTC" target="_blank"><img src="https://nb.scene7.com/is/image/NB/bb550ptc_nb_02_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440" alt="Zapatillas 3"></a>
+                <a href="https://www.nike.com/es/t/air-force-1-07-zapatillas-SgHWBZ/CW2288-111" target="_blank"><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png" alt="Zapatillas 4"></a>
+                <button class="arrow right">&#8594;</button>
+            </div>
+        </div>
+    </main>
+    <main id="electronica">
+        <div class="categoria">
+            <h2>Electrónica</h2>
+            <div class="slider">
+                <button class="arrow left">&#8592;</button>
+                <a href="https://electronica-ejemplo3.com" target="_blank"><img src="https://via.placeholder.com/150/008000" alt="Electrónica 3"></a>
+                <a href="https://www.pccomponentes.com/corsair-vengeance-lpx-ddr4-3200-pc4-25600-16gb-2x8gb-cl16-negro" target="_blank"><img src="https://thumb.pccomponentes.com/w-530-530/articles/26/262822/corsair-vengeance-lpx-ddr4-3200-pc4-25600-16gb-2x8gb-cl16-negro.jpg" alt="Electrónica 1"></a>
+                <a href="https://www.pccomponentes.com/disco-duro-wd-blue-sn580-1tb-disco-ssd-4150mb-s-nvme-pcie-40-m2-gen4-16gt-s" target="_blank"><img src="https://thumb.pccomponentes.com/w-530-530/articles/1074/10747400/1303-wd-blue-sn580-1tb-ssd-m2-pcie-40-nvme.jpg" alt="Electrónica 2"></a>
+                <button class="arrow right">&#8594;</button>
+            </div>
+        </div>
+    </main>
+    <main id="juegos">
+        <div class="categoria">
+            <h2>Juegos</h2>
+            <div class="slider">
+                <button class="arrow left">&#8592;</button>
+                <a href="https://www.instant-gaming.com/es/7930-comprar-steam-monster-hunter-wilds-pc-juego-steam-europe/" target="_blank"><img src="https://gaming-cdn.com/images/products/7930/616x353/monster-hunter-wilds-pc-juego-steam-europe-cover.jpg?v=1732522160" alt="Juego 1"></a>
+                <a href="https://juegos-ejemplo2.com" target="_blank"><img src="https://via.placeholder.com/150/FFD700" alt="Juego 2"></a>
+                <a href="https://juegos-ejemplo3.com" target="_blank"><img src="https://via.placeholder.com/150/000080" alt="Juego 3"></a>
+                <button class="arrow right">&#8594;</button>
+            </div>
+        </div>
+    </main>
+    <main id="varios">
+        <div class="categoria">
+            <h2>Varios</h2>
+            <div class="slider">
+                <button class="arrow left">&#8592;</button>
+                <a href="https://www.example.com/varios1" target="_blank">
+                    <img src="https://lacasadelascarcasas.es/6893-large_default/carcasa-silicona-transparente-para-iphone-11.jpg" alt="Varios 1">
+                </a>
+                <a href="https://www.example.com/varios2" target="_blank">
+                    <img src="https://sdcdn.io/av/av_sku_A09A70_2000x2000_0.jpg?width=650px&height=750px" alt="Varios 2">
+                </a>
+                <a href="https://www.amazon.es/HYDRATE-abatible-gimnasio-recipiente-transparente/dp/B07QF99ZKN" target="_blank">
+                    <img src="https://m.media-amazon.com/images/I/71VQUQSkKnL.jpg" alt="Varios 3">
+                </a>
+                <a href="https://www.amazon.es/Exteriores-Colgante-Accesorios-mosquetones-Universal/dp/B0D3KTJ5SF?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1914CYY0O0J4I" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRrBhULuadM5Bb0HyPjNIh5HlgUFaVtkh-LR0v2rPwnmRy7d9SHxhSfjgYbt0rVKKbpzGnYmNmBMkUEQD0XTTRD68JKVmrOw4D483FzXPQwHlcC3urSupJIVA" alt="Varios 4">
+                </a>
+                <a href="https://varios-ejemplo3.com" target="_blank"><img src="https://via.placeholder.com/150/2F4F4F" alt="Varios 3"></a>
+                <button class="arrow right">&#8594;</button>
+            </div>
+        </div>
+    </main>
+    <script>
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const sectionId = this.getAttribute('data-section');
+                document.querySelectorAll('main, .inicio').forEach(section => section.style.display = 'none');
+                document.getElementById(sectionId).style.display = 'block';
+            });
+        });
+        document.querySelectorAll('.slider').forEach(slider => {
+            const images = slider.querySelectorAll('img');
+            let currentIndex = 0;
+
+            slider.querySelector('.arrow.left').addEventListener('click', () => {
+                images[currentIndex].style.display = 'none';
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                images[currentIndex].style.display = 'block';
+            });
+
+            slider.querySelector('.arrow.right').addEventListener('click', () => {
+                images[currentIndex].style.display = 'none';
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].style.display = 'block';
+            });
+
+            images.forEach((img, index) => {
+                if (index !== 0) img.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
